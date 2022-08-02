@@ -69,7 +69,11 @@ form {
   transform: translate(-50%);
   width: 100px;
   line-height: 2rem;
-  background-color: rgb(47, 37, 109);
+  background-color: rgb(65, 41, 224);
   color: white;
   border: none;
+}
+
+.hidden {
+  display: none;
 }
