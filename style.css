@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("galaxy 8 ball pic.png");
+  background-image: url('galaxy 8 ball pic.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -27,15 +27,28 @@ h2 {
 }
 form {
   text-align: center;
+  position: relative;
 }
-#clickMe {
+.question {
+  position: relative;
+  z-index: 999999;
+}
+.clickMe {
+  position: relative;
+
   text-align: center;
-  width: 50%;
+  /*width: 50%;*/
   margin: auto;
   display: block;
   width: 100px;
   z-index: 1;
 }
+/*
+.clickMe:active {
+  transform: translate(-50%, 3px);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+*/
 
 .picBox {
   position: relative;
@@ -49,7 +62,9 @@ form {
   margin: auto;
   display: block;
   */
+
   position: absolute;
+
   height: 900px;
   left: 50%;
   transform: translate(-50%, -18%);
@@ -62,16 +77,17 @@ form {
   margin-left: auto;
   margin-right: auto;
   */
-  top: 15%;
+  top: 13.5%;
   left: 50%;
   position: absolute;
   z-index: 1;
   transform: translate(-50%);
-  width: 100px;
+  width: 90px;
   line-height: 2rem;
   background-color: rgb(65, 41, 224);
   color: white;
   border: none;
+  text-align: center;
 }
 
 .hidden {
