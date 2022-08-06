@@ -37,18 +37,12 @@ form {
   position: relative;
 
   text-align: center;
-  /*width: 50%;*/
+
   margin: auto;
   display: block;
   width: 100px;
   z-index: 1;
 }
-/*
-.clickMe:active {
-  transform: translate(-50%, 3px);
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-}
-*/
 
 .picBox {
   position: relative;
@@ -57,14 +51,7 @@ form {
 }
 
 .magic-8-ball {
-  /*
-  width: 50%;
-  margin: auto;
-  display: block;
-  */
-
   position: absolute;
-
   height: 900px;
   left: 50%;
   transform: translate(-50%, -18%);
@@ -73,10 +60,6 @@ form {
 
 .answer {
   display: block;
-  /*
-  margin-left: auto;
-  margin-right: auto;
-  */
   top: 13.5%;
   left: 50%;
   position: absolute;

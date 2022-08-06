@@ -1,16 +1,8 @@
 'use strict';
 
-//Call .question
-//.answer
-//#clickMe
-
 const questions = document.querySelector('.question');
 const answers = document.querySelector('.answer');
 const click = document.querySelector('.clickMe');
-
-//let playing = true;
-
-//answers.textContent = eightBall;
 
 answers.classList.add('hidden');
 
@@ -58,8 +50,6 @@ questions.addEventListener('click', function () {
   document.querySelector('.clickMe').disabled = false;
   click.classList.remove('hidden');
 });
-
-//console.log(`The Magic 8 Ball says ${eightBall}`);
 
 /*What I want to do with this project is
 1) have someone type their question and click the button-----COMPLETED
